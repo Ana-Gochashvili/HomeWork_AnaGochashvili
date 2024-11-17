@@ -23,7 +23,7 @@ public class HomeWorkTwo {
 
         // დავალება 2
 
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println("Random number " + i + ": " + (Math.random() * 100));
         }
 
@@ -53,8 +53,8 @@ public class HomeWorkTwo {
         // with ArrayList
 
         ArrayList<Integer> myList = new ArrayList<>();
-        for (int i = 91; i <= 100; i++){
-            myList.add((int)(Math.random() * i));
+        for (int i = 1; i <= 10; i++){
+            myList.add((int)(Math.random() * 100));
         }
         System.out.println("Original ArrayList: " + myList);
 
