@@ -23,8 +23,8 @@ public class HomeWorkTwo {
 
         // დავალება 2
 
-        for (int i = 0; i <= 100; i++) {
-            System.out.println("Random number " + i + ": " + (Math.random() * i));
+        for (int i = 0; i <= 10; i++) {
+            System.out.println("Random number " + i + ": " + (Math.random() * 100));
         }
 
         // დავალება 3
