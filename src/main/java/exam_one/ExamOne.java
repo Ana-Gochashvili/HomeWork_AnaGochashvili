@@ -39,22 +39,25 @@ public class ExamOne {
           Hint: მოდა არის მონაცემი რომელიც ყველაზე ხშირად გვხვდება მასივში
           ( თუ 2 ყველაზე ხშირად არსებული ელემენტი ერთიდაიგივე რაოდენობის არის შეგიძლიათ მაგას არ მიაქციოთ ყურადღება)*/
 
-        int[] myArray = {0, 7, 7, 2, 7, 3, 5};
+        int[] myArray = {0, 7, 7, 2, 7, 3, 5, 3, 5, 3, 5, 3, 5, 3, 5, 3, 5, 3, 5, 3, 5};
         int count = 1;
-        int mode = myArray[0];
-        for (int i = 0; i < myArray.length; i++){
+        int x = myArray[0];
+        int x1 = myArray[0];
+        for (int i = 0; i < myArray.length; i++) {
             int count1 = 1;
-            for (int j = i + 1; j < myArray.length; j++){
-                if (myArray[i] == myArray[j]){
+            for (int j = i + 1; j < myArray.length; j++) {
+                if (myArray[i] == myArray[j]) {
                     count1++;
                 }
             }
-            if (count1 > count){
-                mode = myArray[i];
+            if (count1 > count) {
+                x = myArray[i];
                 count = count1;
+            } else if (count1 == count) {
+                x1 = myArray[i];
             }
         }
-        System.out.println(mode);
+        System.out.println(x + " and " + x1);
 
 
     }
