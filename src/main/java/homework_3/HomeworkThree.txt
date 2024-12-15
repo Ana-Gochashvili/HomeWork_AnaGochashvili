@@ -1,0 +1,16 @@
+
+    // დავალება 1
+
+    id("APjFqb")
+    name("q")
+
+
+    // დავალება 2
+
+    className("gNO89b")
+    name("btnK")
+
+
+    // დავალება 3
+
+    xpath = ("//*[@id="gb"]/div/div[1]/div/div[2]/a")
